@@ -1,0 +1,37 @@
+.birinchiVazifa{
+    display: grid;
+    justify-content: center;
+   .box{
+        width: 800px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;  
+        margin: auto;
+   }
+    input{
+        padding: 10px 20px;
+        outline-color: crimson;
+        color: crimson;
+        border-radius: 6px;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+    #btn{
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 20px;
+        color: crimson;
+        padding: 10px 25px;
+        border-radius: 10px;
+        background-color: greenyellow;
+        border: none;
+    }
+    #result{
+        margin: auto;
+    }
+    
+}
+
+
+
