@@ -16,6 +16,13 @@
   display: grid;
   justify-content: center;
 }
+.birinchiVazifa #h1 {
+  font-family: sans-serif;
+  color: crimson;
+  text-align: center;
+  font-size: 50px;
+  padding: 30px;
+}
 .birinchiVazifa .box {
   width: 800px;
   display: grid;
@@ -44,4 +51,106 @@
 }
 .birinchiVazifa #result {
   margin: auto;
+}
+
+.ikkinchi-vazifa {
+  margin-top: 100px;
+}
+.ikkinchi-vazifa #h1 {
+  font-family: sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: green;
+  margin: 40px;
+}
+.ikkinchi-vazifa p {
+  color: green;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.ikkinchi-vazifa textarea {
+  color: green;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  outline-color: green;
+  resize: none;
+  width: 600px;
+}
+.ikkinchi-vazifa .box {
+  display: grid;
+  justify-content: center;
+  color: white;
+  gap: 10px;
+}
+
+.uchinchi-vazifa {
+  margin-top: 100px;
+}
+.uchinchi-vazifa .h1 {
+  font-family: sans-serif;
+  font-size: 40px;
+  color: blue;
+  text-align: center;
+  margin: 40px;
+}
+.uchinchi-vazifa .box {
+  display: grid;
+  width: 600px;
+  margin: auto;
+  display: grid;
+  gap: 30px;
+}
+.uchinchi-vazifa .box input {
+  padding: 10px 20px;
+  color: blue;
+  font-size: 20px;
+  outline-color: blue;
+  border-radius: 10px;
+}
+.uchinchi-vazifa .box textarea {
+  color: blue;
+  font-family: sans-serif;
+  font-size: 20px;
+  border-radius: 10px;
+  outline-color: blue;
+  padding: 10px 20px;
+  resize: none;
+}
+.uchinchi-vazifa .box button {
+  padding: 10px 20px;
+  color: blue;
+  font-family: sans-serif;
+  font-size: 20px;
+  width: 150px;
+  background-color: aquamarine;
+  border-radius: 10px;
+  border-color: blue;
+}
+
+.turtinchi-vazifa {
+  margin-top: 100px;
+}
+.turtinchi-vazifa .text {
+  font-size: 40px;
+  color: fuchsia;
+  font-family: sans-serif;
+  margin: 40px;
+  text-align: center;
+}
+.turtinchi-vazifa .box {
+  width: 600px;
+  margin: auto;
+}
+.turtinchi-vazifa .box input {
+  padding: 10px 20px;
+  font-size: 20px;
+  color: fuchsia;
+  font-family: sans-serif;
+}
+.turtinchi-vazifa .box p {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: fuchsia;
+  padding: 10px 20px;
 }
